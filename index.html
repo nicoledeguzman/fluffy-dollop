@@ -5,13 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nnnnnn-nn-nnnnnn</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="assets/style/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a3d1f9c4b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>I love plants</h1>
-    <h2>🌿 🌿 🌿</h2>
+    <header>
+        <div class="topSection">
+            <div class="wrapper">
+                <img src="assets/logo/logoBrown.svg" alt="Nicole de Guzman logo" class="logo">
+                <div class="navBar">
+                    <img src="assets/buttons/dropdown.svg" alt="dropdown menu" class="dropdownButton">
+                    <div class="navMenu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#home" class="underlineMe">home</a>
+                                </li>
+                                <li>
+                                    <a href="#about" class="underlineMe">about</a>
+                                </li>
+                                <li>
+                                    <a href="/projects.html" class="underlineMe">projects</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <a href="contact.html" class="contactButton">contact</a>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="headerMain">
+                <h1>Nicole de Guzman</h1>
+                <div class="iconsAndQuote">
+                    <ul class="socialMedia">
+                        <li>
+                            <a href="https://www.linkedin.com/in/nicolegdeguzman/" class="oddOneOut">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/mkdir_nnnnnn">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/nicoledeguzman">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section id="about" class="about">
+                <div class="wrapper portraitAndAbout">
+                    <div class="aboutPhoto">
+                        <img src="assets/pictures/portraitFrame.svg" class="portraitFrame">
+                        <div class="flicker">
+                            <img src="assets/pictures/nicole1.jpeg" alt="Nicole de Guzman">
+                            <img src="assets/pictures/nicole2.jpeg" alt="Nicole de Guzman" class="imBehind">
+                        </div>
+                    </div>
+                    <div class="aboutText">
+                        <h2>About me</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis atque harum exercitationem minus a non inventore expedita debitis, reiciendis dolorem ipsam, corporis distinctio laborum sunt sit tenetur, consequuntur nemo similique.</p>
+                    </div>
+                </div>
+                <!-- add a mini section here with 2 pics -->
+                
+            </section>
 
+            <!-- make skills a carousel -->
+            <section class="skills">
+                <ul class="gallery">
+                    <li>html5</li>
+                    <li>css3</li>
+                    <li>javascript</li>
+                    <li>sass</li>
+                    <li>jquery</li>
+                    <li>react</li>
+                    <li>firebase</li>
+                    <li>git</li>
+                    <li>terminal</li>
+                    <li>responsive design</li>
+                    <li>accessible</li>
+                    <li>rest api</li>
+                </ul>
+            </section>
+
+            <section class="highlightedProjects">
+                <h2>highlighted projects</h2>
+                <!-- 3 highlighted projects -->
+                <p>PROJECTS</p>
+                <!-- button for viewing -->
+                <a href="projects.html" class="projectsButton">
+                    <img src="assets/buttons/viewPurple.svg" alt="take a peek" class="hoverDisappear"> 
+                    <img src="assets/buttons/viewCream.svg" alt="take a peek" class="hoverAppear">
+                </a>
+                
+            </section>
+        </div>
+    </main>    
+    <footer>
+        <div class="wrapper">
+            <div class="footerTop">
+                <img src="assets/logo/logoWhite.svg" alt="Nicole de Guzman logo" class="logo">
+            </div>
+            <div class="footerMid">
+                <h3>Nicole de Guzman</h3>
+            </div>
+            <div class="footerBottom">
+                <nav class="footerNav">
+                    <ul>
+                        <li>
+                            <a href="#home">home</a>
+                        </li>
+                        <li>
+                            <a href="#about">about</a>
+                        </li>
+                        <li>
+                            <a href="/projects.html">projects</a>
+                        </li>
+                        <li>
+                            <a href="/contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p>Copyright 2021 © Nicole de Guzman</p>
+                <ul class="footerSocialMedia">
+                    <li>
+                        <a href="https://www.linkedin.com/in/nicolegdeguzman/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/mkdir_nnnnnn">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nicoledeguzman">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <!-- script -->
     <script src="scripts/script.js"></script>
 </body>
-</html>
+</html> 
