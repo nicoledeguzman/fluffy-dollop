@@ -63,7 +63,7 @@ ul li {
 
 a {
     text-decoration: none;
-    text-transform: capitalize;
+/*     text-transform: capitalize; */
 }    
 
 .topSection a,
@@ -434,7 +434,7 @@ span.uppercase {
 
 .links a {
     font-size: 30px;
-    text-transform: lowercase;
+/*     text-transform: lowercase; */
     padding: 10px;
     margin: 10px;
     color: #F3EEE4B0;
