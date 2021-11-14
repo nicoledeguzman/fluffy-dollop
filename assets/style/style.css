@@ -8,19 +8,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-/* Webfont: Demo */
-/* @font-face { */
-/*     font-family: 'CammronDemo'; */
-/*     src: url('cammronFont/CammronDemo.eot'); /* IE9 Compat Modes */ */
-/*     src: url('cammronFont/CammronDemo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ */
-/*          url('cammronFont/CammronDemo.woff') format('woff'), /* Modern Browsers */ */
-/*          url('cammronFont/CammronDemo.ttf') format('truetype'), /* Safari, Android, iOS */ */
-/*          url('cammronFont/CammronDemo.svg#CammronDemo') format('svg'); /* Legacy iOS */ */
-/*     font-style: normal; */
-/*     font-weight: normal; */
-/*     text-rendering: optimizeLegibility; */
-/* } */
-
 /* general styling */
 
 body {
@@ -228,17 +215,17 @@ header p {
 /*     bottom: -15px; */
 /* } */
 
-.socialMedia {
-    margin: 55px 30px 0 0;
-}
+/* .socialMedia { */
+/*     margin: 55px 30px 0 0; */
+/* } */
 
-.socialMedia li {
-    margin: 30px 0;
-}
+/* .socialMedia li { */
+/*     margin: 30px 0; */
+/* } */
 
-a.oddOneOut {
-    padding: 5px 8px;
-}
+/* a.oddOneOut { */
+/*     padding: 5px 8px; */
+/* } */
 
 /* main */
 
